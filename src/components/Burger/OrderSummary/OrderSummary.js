@@ -1,4 +1,5 @@
 import React from 'react';
+
 import Aux from '../../../hoc/Aux';
 import Button from '../../UI/Button/Button';
 
@@ -20,7 +21,7 @@ const orderSummary = (props) => {
             <Button btnType="Danger" clicked={props.purchaseCancelled}>Cancel</Button>
             <Button btnType="Success" clicked={props.purchaseContinued}>Continue</Button>
         </Aux>
-    )
-};
+    );
+}
 
 export default orderSummary;
